@@ -2,14 +2,6 @@ jquery.ajaxform
 ===============
 
 
-/*
-Created by Thiago Lima Developer
-Email: thiagolima86@gmail.com
-date: 18/10/2013
-Plugin: ajaxForm
-version: 1.1
-*/
-
 How use AjaxForm?
 1. Install Jquery and ajaxForm plugin into header Tag.
 
