@@ -1,3 +1,11 @@
+/*
+Created by Thiago Lima Developer
+Email: thiagolima86@gmail.com
+date: 18/10/2013
+Plugin: ajaxForm
+version: 1.1
+*/
+
 jQuery.fn.ajaxForm = function (callback) {
 
 //var options = $.extend()
