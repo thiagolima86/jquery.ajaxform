@@ -22,17 +22,17 @@ How use AjaxForm?
 
 3. Exemple, How call the plugin fuction
 
-   <script>
+   
 	$("#form1").ajaxForm();
-   </script>
+   
 
 4. If you need get the callback.
 
-   <script>
+   
 	$("#form1").ajaxForm(function(data){
 		alert(data);
 	});
-   </script>
+   
 
 5. Thank's
 
@@ -53,17 +53,17 @@ Como usar AjaxForm?
 
 3. Exemplo, como chamar a função do plugin
 
-   <script>
+   
 	$("#form1").ajaxForm();
-   </script>
+   
 
 4. Se você precisar pegar o retorno do arquivo
 
-   <script>
+   
 	$("#form1").ajaxForm(function(data){
 		alert(data);
 	});
-   </script>
+   
 
 5. Grato.
 
