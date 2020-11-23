@@ -27,7 +27,7 @@ This is a done callback
 ```javascript   
 	$("#form1").ajaxForm(
 		done: {function(data){ alert(data) },
-		fail: {function(data){ alert(data) },
+		fail: {function(data){ alert(data.responseText) },
 		auto_reset:  false
 	});
 ```
