@@ -1,61 +1,41 @@
-jquery.ajaxform
-===============
+# jquery.ajaxform
 
-
-How use AjaxForm?
-1. Install Jquery and ajaxForm plugin into header Tag.
-
-   <script src="ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+## Required Jquery
+```html
+<script src="ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script src="ajaxform.js"></script>
+```
 
-2. Use the sintax.
+## Use the sintax.
    
-   $(selector).ajaxForm(callback);
+   ```$(selector).ajaxForm(callback)```
 
-3. Exemple, How call the plugin fuction
-
+## Exemple to use
    
-	$("#form1").ajaxForm();
-   
+```$("#form1").ajaxForm()```
 
-4. If you need get the callback.
-
-   
+## Simple callback.
+This is a done callback
+```javascript   
 	$("#form1").ajaxForm(function(data){
 		alert(data);
 	});
-   
+```
 
-5. Thank's
-
-
-			Em português do Brasil
-
-
-
-Como usar AjaxForm?
-1. Instale o Jquery e o plugin ajaxForm dentro da tag head.
-
-   <script src="ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script src="ajaxform.js"></script>
-
-2. Use a seguinte sintax.
-   
-   $(selector).ajaxForm(callback);
-
-3. Exemplo, como chamar a função do plugin
-
-   
-	$("#form1").ajaxForm();
-   
-
-4. Se você precisar pegar o retorno do arquivo
-
-   
-	$("#form1").ajaxForm(function(data){
-		alert(data);
+## Advanced callback and option.
+This is a done callback
+```javascript   
+	$("#form1").ajaxForm(
+		done: {function(data){ alert(data) },
+		fail: {function(data){ alert(data) },
+		auto_reset:  false
 	});
+```
+## Options/callback.
+* done: Is the success callback [default:false]
+* fail: Is the fail callback   [default:false]
+* auto_reset: This option, when true, reset the form fields when success send	 [default:true]
    
 
-5. Grato.
+### Thank's
 
